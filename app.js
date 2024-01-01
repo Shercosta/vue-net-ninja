@@ -3,6 +3,7 @@ const app = Vue.createApp({
   //   template: "<h2>I am the Template</h2>",
   data() {
     return {
+      url: "https://shercosta.github.io/Shercosta",
       showBooks: true,
       books: [
         {
