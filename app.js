@@ -9,14 +9,17 @@ const app = Vue.createApp({
         {
           title: "name of the wind",
           author: "patrick rothfuss",
+          isFav: true,
         },
         {
           title: "Jackcy Person",
           author: "Some author",
+          isFav: false,
         },
         {
           title: "Spooderman",
           author: "Peron Madonna",
+          isFav: true,
         },
       ],
     };
