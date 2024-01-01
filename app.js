@@ -38,6 +38,11 @@ const app = Vue.createApp({
       this.x = e.offsetX;
       this.y = e.offsetY;
     },
+    toggleFav(book) {
+      // this.title = "click";
+      // console.log(book.title);
+      book.isFav = !book.isFav;
+    },
   },
 });
 
